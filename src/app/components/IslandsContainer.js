@@ -20,7 +20,7 @@ function IslandsContainer({ islands }) {
     island.name.toLowerCase().includes(query.toLowerCase())
   );
 
-  //const findIsland = islands.find((island) => island);
+
   return (
     <div className="islands-container">
       <div>
